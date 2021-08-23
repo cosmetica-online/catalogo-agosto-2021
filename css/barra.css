@@ -3,3 +3,7 @@
 .navbar li a:hover{
     color: black !important;
 }
+
+.tachar{
+    text-decoration: line-through !important;
+}
