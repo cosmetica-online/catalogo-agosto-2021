@@ -2,149 +2,259 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cosmética Online</title>
-    <link rel="stylesheet" href="https://bootswatch.com/5/journal/bootstrap.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
-        integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
-        integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
-        crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="css/barra.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cosmética Online</title>
+  <link rel="stylesheet" href="https://bootswatch.com/5/journal/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+    integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+    integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/barra.css">
+  <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
-    <!-- Barra de navegacion -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-              <img src="img/logo.png" alt="" width="140" height="60">
+  <!-- Barra de navegacion -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="img/logo.png" alt="" width="140" height="60">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
+        aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Inicio
+              <span class="visually-hidden">(current)</span>
             </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-      
-          <div class="collapse navbar-collapse" id="navbarColor01">
-            <ul class="navbar-nav me-auto">
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Inicio
-                  <span class="visually-hidden">(current)</span>
-                </a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Catálogos</a>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">Agosto</a>
-                  <a class="dropdown-item" href="#">Septiembre</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Próximamente...</a>
-                </div>
-              </li>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+              aria-expanded="false">Catálogos</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Agosto</a>
+              <a class="dropdown-item" href="#">Septiembre</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Próximamente...</a>
+            </div>
+          </li>
 
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Categorias</a>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">Perfumes</a>
-                  <a class="dropdown-item" href="#">Juegos</a>
-                  <a class="dropdown-item" href="#">Niños</a>
-                </div>
-              </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+              aria-expanded="false">Categorias</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Perfumes</a>
+              <a class="dropdown-item" href="#">Juegos</a>
+              <a class="dropdown-item" href="#">Niños</a>
+            </div>
+          </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="#">Ofertas</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contáctanos</a>
-              </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Ofertas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contáctanos</a>
+          </li>
+
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-sm-2" type="text" placeholder="Buscar Producto">
+          <button class="btn btn-secondary my-2 my-sm-0" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container p-4">
+    <!--
+          <div class="ima" >
+            <img src="img/oferta-ago.png" class="img-fluid" alt="...">
+          </div>
+        -->
+
+    <div class="py-5">
+      <div class="row hidden-md-up">
+        
+        <!--Aquí empieza un producto-->
+        <div class="col-md-4">
+          <div class="card text-white bg-primary mb-3">
+            <div class="card-header">
+              ¡No te quedes sin enchufes!</div>
+            <div class="card-body">
+              <h4 class="card-title">EXTENSIÓN HEXAGONAL MÚLTIPLE</h4>
+              <img src="img/2.png" class="img-fluid" alt="...">
+              <p></p>
+              <p class="card-text">Tomacorriente con 5 puertos para enchufes de entrada
+                tipo A, B y C, y 2 puertos adicionales para entrada USB.
+                Cable de extensión de 2 metros de longitud.</p>
+
               
-            </ul>
-            <form class="d-flex">
-              <input class="form-control me-sm-2" type="text" placeholder="Buscar Producto">
-              <button class="btn btn-secondary my-2 my-sm-0" type="submit">Buscar</button>
-            </form>
+              <p>
+                Precio regular
+                S/. <span class="tachar" >45</span>
+              </p>
+              <h2>S/ 27</h2>
+            </div>
           </div>
         </div>
-      </nav>
-
-      <div class="container p-4">
-          <!-- <div class="ima" ></div>
-            <img src="img/oferta-ago.png" class="img-fluid" alt="...">
-          </div> -->
         
-          <div class="row">
-              <div class="col-md-6">
-                <div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
-                    <div class="card-header">
-                      ¡No te quedes sin enchufes!</div>
-                    <div class="card-body">
-                      <h4 class="card-title">EXTENSIÓN HEXAGONAL MÚLTIPLE</h4>
-                      <img src="img/2.png" class="img-fluid" alt="...">
-                      <p></p>
-                      <p class="card-text">Tomacorriente con 5 puertos para enchufes de entrada
-                        tipo A, B y C, y 2 puertos adicionales para entrada USB.
-                        Cable de extensión de 2 metros de longitud.</p>
+        <!--Separacion-->
+        <div class="sep">
+          <p></p>
+        </div>
+        
+        <!--Aquí empieza un producto-->
+        <div class="col-md-4">
+          <div class="card text-white bg-primary mb-3">
+            <div class="card-header">
+              ¡No te quedes sin enchufes!</div>
+            <div class="card-body">
+              <h4 class="card-title">EXTENSIÓN HEXAGONAL MÚLTIPLE</h4>
+              <img src="img/2.png" class="img-fluid" alt="...">
+              <p></p>
+              <p class="card-text">Tomacorriente con 5 puertos para enchufes de entrada
+                tipo A, B y C, y 2 puertos adicionales para entrada USB.
+                Cable de extensión de 2 metros de longitud.</p>
 
-                      
-                      <p>Precio regular
-                        S/. <span class="tachar" >45</span> </p>
-                    </div>
-                  </div>
-                  <div class="card text-white bg-secondary mb-3" style="max-width: 20rem;">
-                    <div class="card-header">Header</div>
-                    <div class="card-body">
-                      <h4 class="card-title">Secondary card title</h4>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                  </div>
-                  <div class="card text-white bg-success mb-3" style="max-width: 20rem;">
-                    <div class="card-header">Header</div>
-                    <div class="card-body">
-                      <h4 class="card-title">Success card title</h4>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                  </div>
-                  <div class="card text-white bg-danger mb-3" style="max-width: 20rem;">
-                    <div class="card-header">Header</div>
-                    <div class="card-body">
-                      <h4 class="card-title">Danger card title</h4>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                  </div>
-                  <div class="card bg-warning mb-3" style="max-width: 20rem;">
-                    <div class="card-header">Header</div>
-                    <div class="card-body">
-                      <h4 class="card-title">Warning card title</h4>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                  </div>
-                  <div class="card text-white bg-info mb-3" style="max-width: 20rem;">
-                    <div class="card-header">Header</div>
-                    <div class="card-body">
-                      <h4 class="card-title">Info card title</h4>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                  </div>
-                  <div class="card bg-light mb-3" style="max-width: 20rem;">
-                    <div class="card-header">Header</div>
-                    <div class="card-body">
-                      <h4 class="card-title">Light card title</h4>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                  </div>
-                  <div class="card text-white bg-dark mb-3" style="max-width: 20rem;">
-                    <div class="card-header">Header</div>
-                    <div class="card-body">
-                      <h4 class="card-title">Dark card title</h4>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                  </div>
-              </div>
+              
+              <p>
+                Precio regular
+                S/. <span class="tachar" >45</span>
+              </p>
+              <h2>S/ 27</h2>
+            </div>
           </div>
-      </div>
+        </div>
+        
+        <!--Separacion-->
+        <div class="sep">
+          <p></p>
+        </div>
+        
+        <!--Aquí empieza un producto-->
+        <div class="col-md-4">
+          <div class="card text-white bg-primary mb-3">
+            <div class="card-header">
+              ¡No te quedes sin enchufes!</div>
+            <div class="card-body">
+              <h4 class="card-title">EXTENSIÓN HEXAGONAL MÚLTIPLE</h4>
+              <img src="img/2.png" class="img-fluid" alt="...">
+              <p></p>
+              <p class="card-text">Tomacorriente con 5 puertos para enchufes de entrada
+                tipo A, B y C, y 2 puertos adicionales para entrada USB.
+                Cable de extensión de 2 metros de longitud.</p>
 
+              
+              <p>
+                Precio regular
+                S/. <span class="tachar" >45</span>
+              </p>
+              <h2>S/ 27</h2>
+            </div>
+          </div>
+        </div>
+      
+      <!--Separación especial de fila (cada 3 productos)-->
+      </div><br>
+      
+      <div class="row">
+
+        <!--Aquí empieza un producto-->
+        <div class="col-md-4">
+          <div class="card text-white bg-primary mb-3">
+            <div class="card-header">
+              ¡No te quedes sin enchufes!</div>
+            <div class="card-body">
+              <h4 class="card-title">EXTENSIÓN HEXAGONAL MÚLTIPLE</h4>
+              <img src="img/2.png" class="img-fluid" alt="...">
+              <p></p>
+              <p class="card-text">Tomacorriente con 5 puertos para enchufes de entrada
+                tipo A, B y C, y 2 puertos adicionales para entrada USB.
+                Cable de extensión de 2 metros de longitud.</p>
+
+              
+              <p>
+                Precio regular
+                S/. <span class="tachar" >45</span>
+              </p>
+              <h2>S/ 27</h2>
+            </div>
+          </div>
+        </div>
+
+        <!--Separacion-->
+        <div class="sep">
+          <p></p>
+        </div>
+
+        <!--Aquí empieza un producto-->
+        <div class="col-md-4">
+          <div class="card text-white bg-primary mb-3">
+            <div class="card-header">
+              ¡No te quedes sin enchufes!</div>
+            <div class="card-body">
+              <h4 class="card-title">EXTENSIÓN HEXAGONAL MÚLTIPLE</h4>
+              <img src="img/2.png" class="img-fluid" alt="...">
+              <p></p>
+              <p class="card-text">Tomacorriente con 5 puertos para enchufes de entrada
+                tipo A, B y C, y 2 puertos adicionales para entrada USB.
+                Cable de extensión de 2 metros de longitud.
+              </p>
+              <p>
+                Precio regular
+                S/. <span class="tachar" >45</span>
+              </p>
+              <h2>S/ 27</h2>
+            </div>
+          </div>
+        </div>
+
+        <!--Separacion-->
+        <div class="sep">
+          <p></p>
+        </div>
+
+        <!--Aquí empieza un producto-->
+        <div class="col-md-4">
+          <div class="card text-white bg-primary mb-3">
+            <div class="card-header">
+              ¡No te quedes sin enchufes!</div>
+            <div class="card-body">
+              <h4 class="card-title">EXTENSIÓN HEXAGONAL MÚLTIPLE</h4>
+              <img src="img/2.png" class="img-fluid" alt="...">
+              <p></p>
+              <p class="card-text">Tomacorriente con 5 puertos para enchufes de entrada
+                tipo A, B y C, y 2 puertos adicionales para entrada USB.
+                Cable de extensión de 2 metros de longitud.</p>
+
+              
+              <p>
+                Precio regular
+                S/. <span class="tachar" >45</span>
+              </p>
+              <h2>S/ 27</h2>
+            </div>
+          </div>
+        </div>
+
+        <!--Separacion-->
+        <div class="sep">
+          <p></p>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      &copy 2021 Cosmética Online. Todos los derechos reservados.
+    </footer>
 </body>
 
 </html>
